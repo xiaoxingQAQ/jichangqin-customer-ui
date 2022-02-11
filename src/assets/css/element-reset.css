@@ -1,0 +1,80 @@
+.el-input__inner {
+  border-color: #6FE9CEFF;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+.el-date-picker__header-label {
+  color: #fff !important;
+}
+.el-date-table__row {
+  color: #fff !important;
+}
+.el-time-spinner__item {
+  color: #fff;
+}
+
+.el-time-spinner__item.active:not(.disabled) {
+  color: #409eff;
+}
+
+.el-time-panel__footer {
+  border-top: 0.0125rem solid transparent;
+}
+.el-scrollbar__thumb {
+  display: none;
+}
+
+.el-time-panel__btn, .cancel {
+  color: #fff !important;
+}
+.el-time-spinner__wrapper.is-arrow .el-time-spinner__item:hover:not(.disabled):not(.active) {
+  background: #409eff !important;
+  cursor: pointer;
+}
+.el-time-spinner__item:hover:not(.disabled):not(.active) {
+  background: #409eff !important;
+  cursor: pointer;
+}
+
+/* 滑动条 */
+.el-slider__bar {
+  transform: translate(-1px,-1px);
+  background: linear-gradient(270deg, #7FF6D2 0%, #46EAE6 48%, #19ADCA 100%);
+}
+.el-slider__runway {
+  width: 100%;
+  height: 0.075rem;
+  margin: 0.2rem 0;
+  border: 1px solid #77f1d7 !important;
+  background-color: transparent;
+  border-radius: 8px !important;
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.el-slider__button {
+  transform: translate(0,-1px);
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 0.025rem solid #21B8CFFF;
+  background-color: rgba(33, 184, 207, 0.514) !important;
+  border-radius: 50%;
+  -webkit-transition: .2s;
+  transition: .2s;
+  user-select: none;
+}
+
+.el-slider__button-wrapper.dragging {
+  padding-bottom: 2px !important;
+}
+.el-slider__button-wrapper::before {
+  content: '' !important;
+  width: 9px !important;
+  height: 9px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  border-radius: 50%;
+  background-color: #46CFFBFF !important;
+}

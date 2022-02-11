@@ -1,0 +1,292 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap; /* 禁止自动换行 */
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* 动画 */
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .5s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.el-tabs__item,
+.el-time-panel__btn,
+.cancel,
+.el-date-table th,
+.el-time-spinner__item,
+.el-form-item__label,
+.el-row,
+.ant-form-explain,
+.ant-form-item-children,
+.ant-form-item-label,
+.el-select-dropdown__item,
+.ant-alert-message,
+.ant-alert-description,
+.el-menu,
+.ant-btn,
+.el-message-box__title,
+.el-message-box__message,
+.el-message-box__status .el-icon-warning,
+.ant-input,
+.el-input__inner,
+.el-textarea__inner,
+.el-form-item__error,
+.el-form-item__error,
+.el-icon-success:before {
+  font-weight: 500 !important;
+}
+
+.el-message__content {
+  font-weight: 700;
+}
+
+/* 解决高度塌陷 */
+.clear_fix:after {
+  /* 要加的属性 */
+  content: ''; /* 添加内容 */
+  clear: both; /* 清楚两侧浮动 */
+  display: block; /* 转换元素类型为块元素 */
+  height: 0;
+  overflow: hidden; /* 溢出隐藏属性 */
+  visibility: hidden; /* 隐藏属性 */
+}
+
+/* 禁止选中图片和文字  */
+body {
+  -moz-user-select: none; /*火狐*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -ms-user-select: none; /*IE10*/
+  -khtml-user-select: none; /*早期浏览器*/
+  user-select: none;
+}
+
+/* 全局滚动条样式 */
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 0;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 0;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px #3d445e;
+  background: #3d445e;
+}
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px #3d445e;
+  border-radius: 10px;
+  background: #ededed;
+}
+
+/* element分页组件 */
+.btn-prev {
+  border: 2px solid #3bffcdff !important;
+  border-radius: 4px !important;
+  background-color: rgba(120, 245, 213, 0.2) !important;
+}
+
+.btn-next {
+  border: 2px solid #3bffcdff !important;
+  border-radius: 4px !important;
+  background-color: rgba(120, 245, 213, 0.2) !important;
+}
+
+.el-icon-arrow-right:before,
+.el-icon-arrow-left:before {
+  color: #fff !important;
+}
+
+.number {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #7bf5d4ff !important;
+  color: #000 !important;
+}
+.el-pagination.is-background .el-pager li {
+  margin: 0 0.0625rem;
+  background-color: transparent !important;
+  color: #fff !important;
+  min-width: 0.375rem;
+  border-radius: 0.025rem;
+}
+
+/* 文本域, 文本框 */
+.el-textarea__inner,
+.el-input__inner {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: #6fe9ceff !important;
+}
+
+/* 日期时间选择框 */
+.el-date-picker__time-header {
+  border-bottom: 0.0125rem solid transparent !important;
+}
+
+.el-picker-panel__body th {
+  font-weight: 500 !important;
+}
+
+.el-picker-panel__footer {
+  border-top: 0.0125rem solid transparent !important;
+  background-color: transparent !important;
+}
+.el-picker-panel__footer .el-picker-panel__link-btn {
+  color: #fff !important;
+  border-color: transparent;
+  background-color: transparent !important;
+}
+
+/* 树形控件 */
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #409eff !important;
+}
+.el-checkbox__label {
+  color: #cacccc !important;
+  font-weight: 500 !important;
+}
+
+.el-tree {
+  color: #fff;
+  background: none !important;
+}
+
+.el-tree-node__content:hover {
+  background-color: #474b5a69 !important;
+  border-radius: 4px;
+}
+
+.el-tree-node__content {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+.el-tree-node__children {
+  background-color: transparent !important;
+}
+
+.el-tree-node,
+.is-focusable {
+  background-color: transparent !important;
+}
+
+.el-tree-node.is-current.is-focusable {
+  background-color: transparent !important;
+}
+
+.el-tree-node__children {
+  background-color: transparent !important;
+}
+
+.el-tree-node__expand-icon {
+  display: none !important;
+}
+
+/* dialog */
+/* dialog__footer */
+.el-dialog__footer {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+/* dialog */
+.el-dialog {
+  border-radius: 8px !important;
+  background-color: #39566d !important;
+}
+
+/* dialog title */
+.el-dialog__title {
+  font-weight: 500 !important;
+  color: #fff !important;
+}
+
+/* form 表单的字体颜色 */
+.el-form-item__label {
+  color: #fff !important;
+}
+
+/* dialog 右上角的关闭图标 */
+.el-icon-close {
+  color: #fff !important;
+  font-size: 30px !important;
+}
+
+/* 下拉框 */
+.el-popper {
+  color: #eee !important;
+  background-color: rgba(38, 64, 97, 0.842) !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.el-scrollbar {
+  box-shadow: none !important;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: rgba(38, 64, 97, 0.842) !important;
+}
+
+.el-select-dropdown__item {
+  color: #fff !important;
+}
+.el-select-dropdown__item.selected {
+  color: #409eff !important;
+  font-weight: 500;
+}
+.popper__arrow {
+  border-bottom-color: rgba(38, 64, 97, 0.842) !important;
+  /* display: none !important; */
+}
+.el-popper[x-placement^='bottom'] .popper__arrow::after {
+  border-bottom-color: rgba(38, 64, 97, 0.842) !important;
+}
+
+.el-scrollbar__view,
+.el-select-dropdown__list {
+  padding: 0 !important;
+}
+.el-icon-arrow-up:before {
+  display: none !important;
+}
+
+/* 日期，时间选择器 */
+.el-date-table td span {
+  font-weight: 500 !important;
+}
+
+.el-date-table th {
+  color: #fff !important;
+  border-bottom: solid 0.0125rem transparent !important;
+}

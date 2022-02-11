@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="12" viewBox="0 0 75 12">
+  <defs>
+    <image id="image" width="75" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAMCAYAAAAqE0A+AAABrUlEQVRIieWXTUtCQRSGH8VsV63aGFSEWVAGWdG+oI9F3z+gn9BP6W8EFbYxgtYhSRtpIYlkoJtW6S6LiqkzcrmMHzPqInxgYDxzPM5953rPewOLlW+EAeAQ2ACmJFYAboAL4EMFHoboW0Jy4aPAKTDtE2Jexg5wArzaCJWo1qdxYB2YkM9F4BbI/qcDCMkdZRLKi1pTOcdAzfI3doFtXywmIwVcuWxcDmIYWAEiEi4D90ClFwegxDpoIZRG5ewDZxb14wahvKi1Z32HWTIC7AFhz9cmRbgk8OZQ85dElSCwCkQllAfSKrhpUccmF/nrdSPHxLJPKE1Y1jpBCTUHDMpQ8yUl1oxF0ZjlBsa7lGMi0mRtzLGmJmqIzQYti3x2uAkTgR7U7AlKrJxF4YLlJl7ayCk6Xli5yVrJsaYmb4jlguKj2sUmF7EH3cgxkWnQmWuy1glp4BF4l6HmGdUNL8VHteqIecm1ISv2oFFHTDl2QqTbJeVhrp9RJRHKuRPy5/u+gDsZdbSDb2RKNU/alNr4F48pXQDW/rsp9b/uHAFb4lcQD3QNnPf96w7wA73tWWyl5qopAAAAAElFTkSuQmCC"/>
+  </defs>
+  <g id="组_545" data-name="组 545" transform="translate(1445 84) rotate(180)">
+    <use id="椭圆_14_副本_4" data-name="椭圆 14 副本 4" transform="translate(1370 72)" xlink:href="#image"/>
+    <use id="椭圆_14_副本_4-2" data-name="椭圆 14 副本 4" transform="translate(1370 72)" xlink:href="#image"/>
+  </g>
+</svg>

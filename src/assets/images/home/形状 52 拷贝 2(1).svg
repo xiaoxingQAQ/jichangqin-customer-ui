@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="229" height="134" viewBox="0 0 229 134">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 274 160">
+      <image width="274" height="160" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARIAAACgCAYAAADAQuPpAAACvElEQVR4nO3bQU6DQABA0dH0rh7DeoyezbuoMWk3WlqYv4P3EjYkbAb4gWF4GZ9flwEQnK6HvhlEYNLl1cgBlZAAmZAA2VJIvlduZ6cAduG84b7/pzyRfAgJ7Mb5ek9PmQ2JiMD+TMdkJiQiAvs1FZOtIRER2L/NMdkSEhGB49gUk7UhERE4ntUxWRMSEYHjWhWTZyEREeBpTB6FRESAm4cxOS3sFxHgr8UmLD2RiAhwz902+GkPyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyIQEyJZC8m5ogTvutmEpJGcxAf54v7bhn0evNmIC3CxGZKyYIxET4GFExsrJVjGB43oakbHhq42YwPGsisjY+PlXTOA4VkdkTKwjERPYv00RGZML0sQE9mtzREZY2SomsD9TERlxibyYwH5MR+TXaWH/iwsEDuXjuk3x0x6QCQmQCQmQ3eZILoYSmDLG+AFPZUS/t3MdBgAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <rect id="形状_52_拷贝_2" data-name="形状 52 拷贝 2" class="cls-1" width="229" height="134"/>
+</svg>

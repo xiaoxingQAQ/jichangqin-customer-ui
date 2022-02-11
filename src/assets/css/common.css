@@ -1,0 +1,183 @@
+html,
+body,
+#app {
+  height: 100%;
+  font-family: arial, x-locale-body, sans-serif !important;
+}
+
+.clear-fix:after {
+  content: "" !important;
+  display: block !important;
+  height: 0 !important;
+  clear: both !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+}
+
+/* 全局滚动条样式 */
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 8px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 8px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 3px;
+  box-shadow: inset 0 0 10px rgba(144, 147, 153, 0.3);
+  background: rgba(144, 147, 153, 0.5);
+  cursor: pointer !important;
+}
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px rgba(238, 238, 238, 0);
+  border-radius: 10px;
+  /* background: #ededed; */
+}
+
+.el-radio {
+  display: none !important;
+}
+
+.el-table--scrollable-x .el-table__body-wrapper {
+  cursor: pointer !important;
+}
+.el-table__body-wrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  border-color: transparent !important;
+}
+
+/* 组织树 */
+.vue-treeselect__input-container .vue-treeselect__input {
+  font-weight: 500 !important;
+}
+.vue-treeselect__single-value {
+  font-weight: 500 !important;
+}
+.vue-treeselect__placeholder.vue-treeselect-helper-zoom-effect-off {
+  font-weight: 500 !important;
+}
+
+/* tabs */
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active,
+.el-tabs--border-card
+  > .el-tabs__header
+  .el-tabs__item:not(.is-disabled):hover {
+  background-color: transparent !important;
+  transition: all 200ms;
+}
+
+.el-tabs--border-card
+  > .el-tabs__header
+  .el-tabs__item:not(.is-disabled):hover {
+  color: #40a0ffdc !important;
+}
+
+/* el分页 */
+.el-pagination__total,
+.el-pagination__jump {
+  font-weight: 500 !important;
+}
+
+/* dialog 右上角的关闭图标 */
+.el-dialog__headerbtn .el-dialog__close.el-icon.el-icon-close {
+  font-size: 30px !important;
+}
+/* dialog框 */
+.el-dialog,
+.el-dialog--center {
+  border-radius: 6px !important;
+}
+
+.el-dialog__title {
+  font-weight: 500 !important;
+}
+
+.camera.el-col-19 {
+  width: 100% !important;
+}
+
+.el-cascader-node__label {
+  font-size: 16px !important;
+}
+.el-button.el-button--mini {
+  border-radius: 4px !important;
+}
+.excel-export {
+  display: inline-block;
+}
+
+.el-notification__content p,
+.el-dropdown-menu__item,
+.el-tooltip__popper.is-dark,
+.el-picker-panel__shortcut,
+.el-tree-node__label,
+.el-notification__content,
+.el-breadcrumb__inner,
+.el-select-dropdown__empty,
+.el-button,
+.el-cascader-node__label,
+.el-button--primary,
+.el-button--medium,
+.el-form-item__label,
+.el-row,
+.ant-form-explain,
+.ant-form-item-children,
+.ant-form-item-label,
+.el-select-dropdown__item,
+.ant-alert-message,
+.ant-alert-description,
+.el-menu,
+.ant-btn,
+.el-message-box__title,
+.el-message-box__message,
+.el-message-box__status .el-icon-warning,
+.ant-input,
+.el-input__inner,
+.el-textarea__inner,
+.el-form-item__error,
+.el-form-item__error,
+.el-icon-success:before {
+  font-weight: 500 !important;
+}
+
+.el-message__content {
+  font-weight: 700 !important;
+}
+
+.Margin {
+  margin-right: 130px !important;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.el-table_1_column_1 {
+  text-align: center !important;
+}
+
+.el-table th.el-table__cell.is-leaf {
+  text-align: center !important;
+}
+
+.el-table td.el-table__cell {
+  text-align: center !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+.el-button--primary,
+.el-button--medium,
+.el-button {
+  border-radius: 5px !important;
+}
